@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.font, .btn, .col-4 button, .container .title h1, .container .title p, .col-12 h1, .col-12 p:first-child, .col-12 p:nth-child(3), .col-12 p:nth-child(2), .col-7 p:first-child, .col-7 p:last-child, .price-cards h1, .price-cards p, .card-3 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+  display: inline;
+}
+
+.btn, .col-4 button {
+  background: #02897A;
+  font-size: 16px;
+  line-height: 24px;
+  color: white !important;
+  padding: 10px 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn:hover, .col-4 button:hover {
+  background: white;
+  color: #02897A !important;
+  border: 1px solid #02897A;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.d-c, .container .title, .price, .col-7, .price-cards, .card-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.d-r, .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container {
+  max-width: 1440px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: rgba(0, 0, 0, 0.02);
+  width: 1440px;
+  min-width: 360px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container .title {
+  width: 100%;
+}
+
+.container .title h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  display: inline;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.container .title p {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.container .row {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container .row .card {
+  margin-top: 50px;
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container .row .card .card-title {
+  padding: 3%;
+}
+
+.container .card-box {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-12 h1 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.col-12 p:first-child, .col-12 p:nth-child(3) {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.col-12 p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.price h1, .price p {
+  text-align: center;
+}
+
+.price {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.col-4 {
+  width: 31%;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.col-5 {
+  width: 41.666%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.col-5 h1 {
+  font-size: 76px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 100px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: right;
+  color: #02897A;
+}
+
+.for-card {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.padding {
+  padding-top: 150px;
+}
+
+.col-7 {
+  width: 58.3333%;
+}
+
+.col-7 p:first-child {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.10000000149011612px;
+  color: #02897A;
+  margin: 0 !important;
+}
+
+.col-7 p:last-child {
+  margin: 0 !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.10000000149011612px;
+  color: #AFAFAF;
+}
+
+.price-cards {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  height: 456px;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  padding: 16px;
+  margin-top: 50px;
+  background: white;
+}
+
+.price-cards h1 {
+  font-size: 24px;
+  font-size: "16px";
+  line-height: 40px;
+  text-align: center;
+}
+
+.price-cards p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.end img {
+  width: 19px;
+  height: 19px;
+}
+
+.imgg img {
+  width: 145px;
+}
+
+.card-3 {
+  margin-top: 50px;
+  padding: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 245px;
+  background: white;
+}
+
+.card-3 p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .card-box, .for-card {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .price-cards {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .price-cards {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
